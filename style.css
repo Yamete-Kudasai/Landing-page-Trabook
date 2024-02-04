@@ -13,7 +13,6 @@ body {
 }
 
 .container-fluid {
-  background-color: #FEFCFB;
   width: 100%;
   font-size: 18px;
   font-weight: 400;
@@ -246,16 +245,102 @@ body {
   background: none;
 }
 
-.exclusive .cards4 {
-  background-color: red;
+.exclusive .text p {
+  margin-bottom: 80px;
 }
 
-.exclusive .cards4 .card img {
-  width: 270;
+.exclusive .cards3 {
+  margin-bottom: 50px;
+  padding: 0;
+}
+
+.exclusive .cards3 .card {
+  width: 272px;
+  height: 426px;
+  margin: 15px;
+  padding: 0;
+  border: 2px solid #66666614;  
+}
+
+.exclusive .cards3 .card img {
+  width: 100%;
   height: 290px;
+  margin-bottom: 35px;
 }
 
+.exclusive .cards3 .indications {
+  border-top: none;
+}
 
+.exclusive .cards3 .indications .top {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.exclusive .indications .top h4 {
+  padding-right: 90px;
+  font-weight: 500;
+}
+
+.exclusive .cards3 .indications .under h6 {
+  margin-right: 47px;
+}
+.exclusive .cards3 .indications .under .one {
+  position: relative;
+}
+
+.exclusive .cards3 .indications .under .one::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 11px;
+  width: 43px;
+  height: 2px;
+  background-color: #666666;
+}
+
+.exclusive .cards3 .indications .under span {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.exclusive .cards3 .indications .under .bg-number {
+  padding: 2px;
+  color: #FA7436;
+  border: 0;
+  border-radius: 8px;
+  background-color: #FFE7DB;
+}
+
+.exclusive .cards3 .indications .icon-card {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  margin-right: 5px;                                                                                
+}
+
+.exclusive .center-arrows  img {
+  padding: 12px;
+  border: 2px solid #999999;
+  border-radius: 50%;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.exclusive .center-arrows a .left {
+  background-color:#FA7436;
+  border: 2px solid #FA7436;
+}
+
+.exclusive .center-arrows a .right {
+  transition: transform 0.3s;
+}
+
+.exclusive .center-arrows .right:hover {
+  background-color: #FA7436;
+  border: 2px solid #FA7436;
+}
 
 footer {
   font-weight: 300;
