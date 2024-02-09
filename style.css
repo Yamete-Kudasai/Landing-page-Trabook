@@ -520,7 +520,7 @@ body {
   align-items: center;
   margin: 100px 0 100px 0;
   padding: 100px 0 100px 0;
-  background-color: var(--background-cards-color);
+  background-color: white;
 }
 
 .blog .blog_text h3 {
@@ -539,6 +539,10 @@ body {
 
 .blog .blog_card img{
   margin-bottom: 20px;
+}
+
+.blog .card_blog{
+  margin-bottom: 0px;
 }
 
 .exclusive .cards3 .blog_card {
