@@ -117,6 +117,17 @@ body {
   opacity: 0.7;
 }
 
+.arrow-down {
+  display: inline-block;
+  width: 15px; 
+  height: 20px;
+  background-image: url('/imagenes/flecha.png'); 
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  margin-left: 5px;
+  margin-bottom: -10px;
+}
+
 .btn-explore {
   font-family: "Poppins";
   font-size: 16px;
@@ -767,3 +778,6 @@ footer ol li a{
   font-weight: 300;
   font-size: 13px;
 }
+
+
+
