@@ -6,6 +6,7 @@
   --text-description-color:#666666;
   --background-shadow:#FD8D3A;
   --background-cards-color:#F7F8FC;
+  --description-user-color: #444444;
 }
 
 body {
@@ -183,7 +184,7 @@ body {
   align-items: center;
   margin: 100px 0 100px 0;
   padding: 100px 0 100px 0;
-  background-color: #F7F8FC;
+  background-color: var(--background-cards-color);
 }
 
 .cards-need .text {
@@ -414,7 +415,7 @@ body {
 }
 
 .People_About_us{
-  background-color: #F7F8FC;
+  background-color: var(--background-cards-color);
   display: flex;
   flex-direction: row;
   margin: 100px 0 100px 0;
@@ -430,7 +431,7 @@ body {
   width: 482px;
   height: 64px;
   font-size: 18px;
-  color: #666666;
+  color: var(--text-description-color);
 }
 
 .People_About_us .text h3 {
@@ -444,7 +445,7 @@ body {
   font-family: 'Volkhov', serif;
   font-size: 48px;
   font-weight: 700;
-  color: #FD8D3A;
+  color: var(--primary--color);
 }
 
 .People_About_us .center-arrows{
@@ -454,7 +455,7 @@ body {
 
 .People_About_us .center-arrows img {
   padding: 12px;
-  border: 2px solid #999999;
+  border: 2px solid var(--text-description-color);
   border-radius: 50%;
   text-decoration: none;
   margin: 0px 20px;
@@ -465,8 +466,8 @@ body {
 }
 
 .People_About_us .center-arrows a .left {
-  background-color: #FA7436;
-  border: 2px solid #FA7436;
+  background-color: var(--primary--color);
+  border: 2px solid var(--primary--color);
 }
 
 .People_About_us .Client {
@@ -484,7 +485,7 @@ body {
 
 .People_About_us .Client .client_text {
   padding: 20px 30px 10px 20px;
-  background-color: #ffffff;
+  background-color: white;
   height: 200px;
   width: 400px;
   border-radius: 10px;
@@ -494,14 +495,14 @@ body {
   margin: 0px 0px 20px -20px;
 }
 .People_About_us .Client .text_2 {
-  background-color: #ffffff;
+  background-color: var(--background-cards-color);
   opacity: 0.4;
   margin: 0px 0px -50px 50px;
   box-shadow: 5px 3px 30px -4px rgb(174, 174, 174);
 }
 
 .People_About_us .Client .client_text p{
-  color: #444444;
+  color: var(--description-user-color);
 }
 
 .People_About_us .Client .client_text .client_name h5{
@@ -510,7 +511,7 @@ body {
 }
 
 .People_About_us .Client .client_text .client_name p{
-  color: #666666;
+  color: var(--text-description-color);
 }
 
 .blog {
@@ -519,7 +520,7 @@ body {
   align-items: center;
   margin: 100px 0 100px 0;
   padding: 100px 0 100px 0;
-  background-color: #F7F8FC;
+  background-color: var(--background-cards-color);
 }
 
 .blog .blog_text h3 {
@@ -533,7 +534,7 @@ body {
   font-family: 'Volkhov', serif;
   font-size: 48px;
   font-weight: 700;
-  color: #FD8D3A;
+  color: var(--primary--color);
 }
 
 .blog .blog_card img{
@@ -565,13 +566,14 @@ body {
 }
 
 .blog_button button{
+  margin: 5px;
   border: 0;
   border-radius: 50%;
 }
 
 .blog_button .button_red{
   padding: 10px;
-  background-color: #FA7436;
+  background-color: var(--primary--color);
 }
 
 .blog_button .button_white{
