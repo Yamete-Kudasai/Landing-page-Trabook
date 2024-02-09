@@ -182,7 +182,8 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 100px 0 100px 0;
-  background-color: var(--background-cards-color);
+  padding: 100px 0 100px 0;
+  background-color: #F7F8FC;
 }
 
 .cards-need .text {
@@ -410,6 +411,172 @@ body {
 
 .vacation .card .indications h4 {
   padding: 0;
+}
+
+.People_About_us{
+  background-color: #F7F8FC;
+  display: flex;
+  flex-direction: row;
+  margin: 100px 0 100px 0;
+  padding: 100px 0 100px 0;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.People_About_us .text p {
+  display: block;
+  width: 482px;
+  height: 64px;
+  font-size: 18px;
+  color: #666666;
+}
+
+.People_About_us .text h3 {
+  font-family: "Volkhov";
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.People_About_us .text span {
+  font-family: 'Volkhov', serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #FD8D3A;
+}
+
+.People_About_us .center-arrows{
+  height: 40px;
+  width: 100%;
+}
+
+.People_About_us .center-arrows img {
+  padding: 12px;
+  border: 2px solid #999999;
+  border-radius: 50%;
+  text-decoration: none;
+  margin: 0px 20px;
+}
+
+.People_About_us .center-arrows a{
+  text-decoration: none;
+}
+
+.People_About_us .center-arrows a .left {
+  background-color: #FA7436;
+  border: 2px solid #FA7436;
+}
+
+.People_About_us .Client {
+  display: block;
+  position: relative;
+  height: 279px;
+  width: 541px;
+}
+
+.People_About_us .Client .client_img{
+  z-index: 3;
+  position: absolute;
+  top: 0px;
+}
+
+.People_About_us .Client .client_text {
+  padding: 20px 30px 10px 20px;
+  background-color: #ffffff;
+  height: 200px;
+  width: 400px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0px;
+  left: 10%;
+  margin: 0px 0px 20px -20px;
+}
+.People_About_us .Client .text_2 {
+  background-color: #ffffff;
+  opacity: 0.4;
+  margin: 0px 0px -50px 50px;
+  box-shadow: 5px 3px 30px -4px rgb(174, 174, 174);
+}
+
+.People_About_us .Client .client_text p{
+  color: #444444;
+}
+
+.People_About_us .Client .client_text .client_name h5{
+  color: #222222;
+  margin-bottom: 0px;
+}
+
+.People_About_us .Client .client_text .client_name p{
+  color: #666666;
+}
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px 0 100px 0;
+  padding: 100px 0 100px 0;
+  background-color: #F7F8FC;
+}
+
+.blog .blog_text h3 {
+  font-family: "Volkhov";
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.blog .blog_text span {
+  font-family: 'Volkhov', serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #FD8D3A;
+}
+
+.blog .blog_card img{
+  margin-bottom: 20px;
+}
+
+.exclusive .cards3 .blog_card {
+  width: 272px;
+  height: 426px;
+  margin: 15px;
+  padding: 0;
+}
+
+.exclusive .cards3 .update {
+  border-top: none;
+}
+
+.blog .indications .blog_text h4 {
+  font-size: 18px;
+  padding-top: 20px;
+  padding-right: 90px;
+  font-weight: 500;
+}
+
+.blog .indications .blog_top h6 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #999999;
+}
+
+.blog_button button{
+  border: 0;
+  border-radius: 50%;
+}
+
+.blog_button .button_red{
+  padding: 10px;
+  background-color: #FA7436;
+}
+
+.blog_button .button_white{
+  padding: 6px;
+  background-color: #e5e5e5;
 }
 
 footer {
