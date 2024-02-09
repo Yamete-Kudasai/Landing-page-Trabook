@@ -272,6 +272,73 @@ body {
   margin-bottom: 35px;
 }
 
+.contenedor figure{
+  position:relative;
+  cursor: pointer;
+  border-radius: 6px;
+  margin: 0;
+}
+
+.contenedor figure img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  transition: all 400ms ease-out;
+  will-change: transform;
+}
+
+.contenedor figure .capa {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 89%;
+  text-align: center;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.4);
+  transition: all 400ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.contenedor figure .capa button {
+  position: absolute;
+  bottom: 51px;
+  left: 65px;
+  padding: 9px 23px;
+  color: var(--secondary--color);
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--primary--color);
+}
+
+.contenedor figure:hover > .capa {
+  opacity: 1;
+  visibility: visible;
+}
+
+.contenedor figure:hover > .capa h3{
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+
+.contenedor figure .capa h3 {
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 400ms ease-out;
+  margin-top: 30px;
+}
+
+.contenedor figure .capa p {
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 220px;
+  margin: auto;
+}
+
 .exclusive .cards3 .indications {
   border-top: none;
 }
@@ -368,6 +435,12 @@ body {
   content: "";
   top: 36px;
   right: 295px;
+}
+
+.vacation  .center-arrows {
+  position: absolute;
+  top: 191px;
+  right: 15px;
 }
 
 .vacation .cards3 {
@@ -494,6 +567,7 @@ body {
   left: 10%;
   margin: 0px 0px 20px -20px;
 }
+
 .People_About_us .Client .text_2 {
   background-color: var(--background-cards-color);
   opacity: 0.4;
