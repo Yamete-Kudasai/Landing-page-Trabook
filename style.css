@@ -15,6 +15,14 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.container {
+  max-width: 1300px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .navbar { 
   background-color: var(--secondary--color);
   padding-top: 20px;
@@ -766,6 +774,14 @@ footer ol li{
 
 footer ol li a{
   color: black;
+}
+
+hr {
+  margin: 2rem 0 1rem;
+  color: inherit;
+  border: 0;
+  border-top: var(--bs-border-width) solid;
+  opacity: .25;
 }
 
 .copy{
